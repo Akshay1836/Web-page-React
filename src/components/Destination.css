@@ -1,0 +1,61 @@
+:root{
+    --txtcolor:rgb(252, 242, 253);
+    --bgcolor:rgba(0, 68, 83,.6);
+    --font:'Poppins', sans-serif;
+}
+
+.destination .des-title{
+    text-align: center;
+    font-family: var(--font);
+    margin-top: 1rem;
+    font-weight: 300;
+}
+.destination .des-title h2{
+    margin-bottom: .5rem;
+}
+.first-des{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+ .des-text{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    
+}
+.des-text p{
+    font-family: var(--font);
+    font-weight: 200;
+}
+.des-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    width: 50%;
+  
+    position: relative;
+}
+img{
+    width:49%;
+    object-fit: cover;
+    height: 150px;
+}
+.des-img img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right:0;
+}
+
+/* Destiantion Data reversing*/
+.destination .first-des-reverse{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+

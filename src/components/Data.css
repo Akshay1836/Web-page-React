@@ -1,0 +1,25 @@
+.Main-data{
+  
+    color: rgb(9, 10, 10);
+    margin-top: 1.5rem;
+
+}
+.data-top{
+    text-align: center;
+    line-height: 15px;
+    opacity: .6;
+}
+.data-top h3{
+    padding: 10px;
+    font-size: 1.3rem;
+    
+}
+.data-top p{
+    font-size: .8rem;
+    
+}
+.Lower-data{
+    display: flex;
+    justify-content: space-between;
+
+}
